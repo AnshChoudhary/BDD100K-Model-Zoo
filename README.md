@@ -10,6 +10,8 @@
 ### Summary
 This paper revisits the use of atrous convolution (dilated convolution) in the context of semantic image segmentation. The authors introduce DeepLabv3, which enhances previous versions of DeepLab by incorporating:
 
+![Image Segmentation Results using DeepLabv3](https://github.com/tensorflow/models/raw/master/research/deeplab/g3doc/img/vis1.png)
+
 1. **Atrous Convolution**: Used to adjust the field-of-view and control the resolution of feature responses, maintaining detailed spatial information essential for dense prediction tasks.
 2. **Multi-Scale Context**: Modules employ atrous convolution in cascade or parallel, capturing multi-scale context using multiple atrous rates.
 3. **Atrous Spatial Pyramid Pooling (ASPP)**: ASPP module is augmented with image-level features to encode global context, boosting segmentation performance.
@@ -38,6 +40,8 @@ DeepLabv3 shows significant improvements over previous versions and achieves sta
 
 ### Summary
 The paper introduces Unified Perceptual Parsing (UPP) to recognize as many visual concepts as possible from a single image. The authors develop UPerNet, a multi-task framework that learns from heterogeneous image annotations.
+
+![Unified Perceptual Parsing](https://github.com/CSAILVision/unifiedparsing/raw/master/teaser/result_samples.jpg)
 
 1. **Task Definition**: UPP aims to recognize scene labels, objects, object parts, materials, and textures from images.
 2. **Datasets**: Utilizes the Broadly and Densely Labeled Dataset (Broden), standardized into Broden+.
